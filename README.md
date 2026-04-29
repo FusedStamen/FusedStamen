@@ -56,7 +56,7 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 ## Links
 
 - 🌐 [fusedstamen.com](https://fusedstamen.com)
-- 📡 [WiGLE Profile](https://wigle.net/search#searchtab=user&user=FusedStamen)
+- 📡 WiGLE Profile: FusedStamen
 - 💬 Discord: FusedStamen
 - 🎮 Twitch: [FusedStamen](https://twitch.tv/fusedstamen)
 - 📺 YouTube: [@fusedstamen](https://www.youtube.com/@fusedstamen)
