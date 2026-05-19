@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
 wigle_sort.py — WiGLE CSV merger, country/state splitter, and channel analyzer
-Usage: python wigle_sort.py --input "E:\TECH DATA\wardrive\Wigle Full Downloads" --output "E:\TECH DATA\wardrive\Wigle Sorted"
+Usage: python wigle_sort.py --input "E:\\TECH DATA\\wardrive\\Wigle Full Downloads" --output "E:\\TECH DATA\\wardrive\\Wigle Sorted"
 
 Merges all WiGLE CSVs across month folders, deduplicates by MAC+Type,
 splits into country and US state files, and generates channel summary reports.
 """
 
-import os
 import argparse
 import pandas as pd
 from pathlib import Path
@@ -192,7 +191,7 @@ def channel_group(ch):
 def read_wigle_csv(path):
     """Read a WiGLE CSV, skipping the metadata header line."""
     try:
-        df = pd.read_csv(path, skiprows=1, low_memory=False)
+        df = pd.read_csv(path, skiprows=1, low_memory=False, encoding="utf-8", encoding_errors="replace")
         if "MAC" not in df.columns or "Type" not in df.columns:
             print(f"  SKIP (bad headers): {path.name}")
             return None
