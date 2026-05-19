@@ -49,7 +49,7 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 
 ## Tools
 
-- [wigle_sort.py](wigle_sort.py) — Merge, deduplicate, and split WiGLE CSV exports by region
+- [`wigle_sort`](https://github.com/FusedStamen/Wigle) — Merge, deduplicate, and split WiGLE CSV exports by country and US state with channel analysis
 
 ---
 
