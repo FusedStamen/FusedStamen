@@ -8,25 +8,25 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 
 ---
 
-## WiGLE Stats (Updated 04/2026)
+## WiGLE Stats (Updated 05/2026)
 
 | Type | Unique Records |
 |------|---------------|
-| BLE | 4,214,748 |
-| WiFi | 2,085,267 |
-| BT | 1,071,297 |
-| LTE | 15,482 |
-| GSM | 5,173 |
+| BLE | 4,553,313 |
+| WiFi | 2,177,022 |
+| BT | 1,073,922 |
+| LTE | 16,491 |
+| GSM | 5,178 |
 | WCDMA | 658 |
-| **Total** | **7,392,625** |
+| **Total** | **7,826,584** |
 
 | Region | Records |
 |--------|---------|
-| US | 7,234,367 |
-| India | 111,550 |
-| Europe | 34,945 |
-| Other | 9,356 |
+| US | 7,668,332 |
+| India | 111,548 |
+| Europe | 33,287 |
 | Canada | 2,407 |
+| Other | 11,010 |
 
 ---
 
