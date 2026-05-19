@@ -21,7 +21,7 @@ US_STATES = {
     "colorado":       dict(lat_min=36.99, lat_max=41.00, lon_min=-109.05, lon_max=-102.04),
     "connecticut":    dict(lat_min=40.98, lat_max=42.05, lon_min=-73.73, lon_max=-71.79),
     "delaware":       dict(lat_min=38.45, lat_max=39.84, lon_min=-75.79, lon_max=-75.04),
-    "florida":        dict(lat_min=24.52, lat_max=31.00, lon_min=-87.63, lon_max=-79.97),
+    "florida":        dict(lat_min=24.52, lat_max=31.00, lon_min=-87.63, lon_max=-79.50),  # extended east for barrier islands/coastal GPS
     "georgia":        dict(lat_min=30.36, lat_max=35.00, lon_min=-85.61, lon_max=-80.84),
     "hawaii":         dict(lat_min=18.91, lat_max=22.24, lon_min=-160.25, lon_max=-154.81),
     "idaho":          dict(lat_min=41.99, lat_max=49.00, lon_min=-117.24, lon_max=-111.04),
@@ -31,10 +31,10 @@ US_STATES = {
     "kansas":         dict(lat_min=36.99, lat_max=40.00, lon_min=-102.05, lon_max=-94.59),
     "kentucky":       dict(lat_min=36.50, lat_max=39.15, lon_min=-89.57, lon_max=-81.96),
     "louisiana":      dict(lat_min=28.93, lat_max=33.02, lon_min=-94.04, lon_max=-88.82),
-    "maine":          dict(lat_min=43.06, lat_max=47.46, lon_min=-71.08, lon_max=-66.95),
+    "maine":          dict(lat_min=43.06, lat_max=47.46, lon_min=-71.08, lon_max=-65.50),  # extended east to catch coastal/NB border GPS
     "maryland":       dict(lat_min=37.91, lat_max=39.72, lon_min=-79.49, lon_max=-75.05),
     "massachusetts":  dict(lat_min=41.24, lat_max=42.89, lon_min=-73.51, lon_max=-69.93),
-    "michigan":       dict(lat_min=41.70, lat_max=48.31, lon_min=-90.42, lon_max=-82.41),
+    "michigan":       dict(lat_min=41.70, lat_max=48.31, lon_min=-90.42, lon_max=-79.50),  # extended east to cover Lake Erie corridor
     "minnesota":      dict(lat_min=43.50, lat_max=49.38, lon_min=-97.24, lon_max=-89.49),
     "mississippi":    dict(lat_min=30.17, lat_max=35.01, lon_min=-91.65, lon_max=-88.10),
     "missouri":       dict(lat_min=35.99, lat_max=40.61, lon_min=-95.77, lon_max=-89.10),
@@ -42,17 +42,17 @@ US_STATES = {
     "nebraska":       dict(lat_min=40.00, lat_max=43.00, lon_min=-104.05, lon_max=-95.31),
     "nevada":         dict(lat_min=35.00, lat_max=42.00, lon_min=-120.00, lon_max=-114.04),
     "new_hampshire":  dict(lat_min=42.70, lat_max=45.31, lon_min=-72.56, lon_max=-70.61),
-    "new_jersey":     dict(lat_min=38.93, lat_max=41.36, lon_min=-75.57, lon_max=-73.89),
+    "new_jersey":     dict(lat_min=38.93, lat_max=41.36, lon_min=-75.57, lon_max=-73.50),  # extended east for coastal GPS
     "new_mexico":     dict(lat_min=31.33, lat_max=37.00, lon_min=-109.05, lon_max=-103.00),
-    "new_york":       dict(lat_min=40.50, lat_max=45.02, lon_min=-79.76, lon_max=-71.86),
-    "north_carolina": dict(lat_min=33.84, lat_max=36.59, lon_min=-84.32, lon_max=-75.46),
+    "new_york":       dict(lat_min=40.50, lat_max=45.90, lon_min=-79.76, lon_max=-71.50),  # extended east for Long Island coast, north for Lake Erie border
+    "north_carolina": dict(lat_min=33.84, lat_max=36.59, lon_min=-84.32, lon_max=-75.00),  # extended east for OBX/coastal GPS
     "north_dakota":   dict(lat_min=45.94, lat_max=49.00, lon_min=-104.05, lon_max=-96.55),
     "ohio":           dict(lat_min=38.40, lat_max=42.33, lon_min=-84.82, lon_max=-80.52),
     "oklahoma":       dict(lat_min=33.62, lat_max=37.00, lon_min=-103.00, lon_max=-94.43),
     "oregon":         dict(lat_min=41.99, lat_max=46.26, lon_min=-124.57, lon_max=-116.46),
     "pennsylvania":   dict(lat_min=39.72, lat_max=42.27, lon_min=-80.52, lon_max=-74.69),
     "rhode_island":   dict(lat_min=41.15, lat_max=42.02, lon_min=-71.86, lon_max=-71.12),
-    "south_carolina": dict(lat_min=32.05, lat_max=35.22, lon_min=-83.35, lon_max=-78.54),
+    "south_carolina": dict(lat_min=32.05, lat_max=35.22, lon_min=-83.35, lon_max=-77.90),  # extended east for barrier island/coastal GPS
     "south_dakota":   dict(lat_min=42.48, lat_max=45.95, lon_min=-104.06, lon_max=-96.44),
     "tennessee":      dict(lat_min=34.98, lat_max=36.68, lon_min=-90.31, lon_max=-81.65),
     "texas":          dict(lat_min=25.84, lat_max=36.50, lon_min=-106.65, lon_max=-93.51),
