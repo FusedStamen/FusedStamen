@@ -1,14 +1,12 @@
 # FusedStamen
-
-RF hobbyist. Wardriver, builder, passive collector.
-
+RF hobbyist. Wardriver, builder, passive collector.  
 Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=FusedStamen), [OPwngrid](https://opwngrid.xyz), and community mapping platforms.
 
 <a href="https://wigle.net"><img border="0" src="https://wigle.net/bi/Xud1ssIMdXsvSExZczmaAw.png"></a>
 
 ---
 
-## WiGLE Stats (Updated 05/2026)
+## WiGLE Stats *(Updated 05/2026)*
 
 | Type | Unique Records |
 |------|---------------|
@@ -31,12 +29,11 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 ---
 
 ## Hardware
-
 - uConsole CM4
 - Hak5 WiFi Pineapple Pager
-- C5 Wardriver
-- Signal Sleuth
-- RayHunter (Orbic)
+- C5 Wardriver (ESP32-C5)
+- Signal Sleuth (dual ESP32-WROOM-32U + BW16)
+- RayHunter (Orbic — T-Mobile / Verizon / AT&T)
 - ESP32 Marauder Mini / V7 / V8
 - Pwnagotchi fleet
 - Flipper Zero
@@ -48,15 +45,14 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 ---
 
 ## Tools
-
-- [`wigle_sort`](https://github.com/FusedStamen/Wigle) — Merge, deduplicate, and split WiGLE CSV exports by country and US state with channel analysis
+- [`wigle_sort`](https://github.com/FusedStamen/Wigle) — Merge, deduplicate, and split WiGLE CSV exports by region
+- [`wigle_sort_v2`](https://github.com/FusedStamen/Wigle) — Extended version with 46-country + US state-level splitting, channel analysis, and structured output
 
 ---
 
 ## Links
-
 - 🌐 [fusedstamen.com](https://fusedstamen.com)
-- 📡 WiGLE Profile: FusedStamen
+- 📡 [WiGLE Profile: FusedStamen](https://wigle.net/search#searchtab=user&user=FusedStamen)
 - 💬 Discord: FusedStamen
-- 🎮 Twitch: [FusedStamen](https://twitch.tv/fusedstamen)
-- 📺 YouTube: [@fusedstamen](https://www.youtube.com/@fusedstamen)
+- 🎮 [Twitch: FusedStamen](https://twitch.tv/fusedstamen)
+- 📺 [YouTube: @fusedstamen](https://www.youtube.com/@fusedstamen)
