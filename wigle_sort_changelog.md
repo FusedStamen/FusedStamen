@@ -1,4 +1,4 @@
-# wigle_sort.py — v1 → v2 Changelog
+# wigle_sort.py - v1 → v2 Changelog
 
 ## Bug Fixes
 
@@ -21,7 +21,7 @@ for region_name in list(REGIONS.keys()) + ["other"]:
 
 ## Geographic Coverage
 
-### v1 — 4 coarse regions
+### v1 - 4 coarse regions
 | Region  | Coverage |
 |---------|----------|
 | india   | Single country bounding box |
