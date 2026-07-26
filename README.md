@@ -6,25 +6,27 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 
 ---
 
-## WiGLE Stats *(Updated 05/2026)*
+## WiGLE Stats *(Updated 07/2026)*
 
 | Type | Unique Records |
 |------|---------------|
-| BLE | 4,553,313 |
-| WiFi | 2,177,022 |
-| BT | 1,073,922 |
-| LTE | 16,491 |
-| GSM | 5,178 |
-| WCDMA | 658 |
-| **Total** | **7,826,584** |
+| BLE | 5,762,899 |
+| WiFi | 2,600,428 |
+| BT | 1,080,413 |
+| LTE | 18,752 |
+| GSM | 5,404 |
+| WCDMA | 762 |
+| **Total** | **9,468,658** |
 
 | Region | Records |
 |--------|---------|
-| US | 7,668,332 |
-| India | 111,548 |
-| Europe | 33,287 |
+| USA | 9,020,404 |
+| Netherlands | 259,368 |
+| India | 153,385 |
+| UK | 22,013 |
+| Other | 10,991 |
 | Canada | 2,407 |
-| Other | 11,010 |
+| Ireland | 90 |
 
 ---
 
@@ -47,6 +49,8 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 ## Tools
 - [`wigle_sort`](https://github.com/FusedStamen/Wigle) — Merge, deduplicate, and split WiGLE CSV exports by region
 - [`wigle_sort_v2`](https://github.com/FusedStamen/Wigle) — Extended version with 46-country + US state-level splitting, channel analysis, and structured output
+- [`wigle_sort_v3`](https://github.com/FusedStamen/Wigle) — v2 plus a small-state bounding box fix (Rhode Island, DC, etc. now match correctly instead of being swallowed by larger neighbors)
+- [`wigle_channel_compare`](https://github.com/FusedStamen/Wigle) — Side-by-side channel distribution comparison between two scan datasets, for A/B testing scan configurations
 
 ---
 
