@@ -31,18 +31,23 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 ---
 
 ## Hardware
+- Packet_Hog
 - uConsole CM4
+- An egregious amount of ESP32s
+- T-Dongle C5
 - Hak5 WiFi Pineapple Pager
 - C5 Wardriver (ESP32-C5)
 - Signal Sleuth (dual ESP32-WROOM-32U + BW16)
 - RayHunter (Orbic — T-Mobile / Verizon / AT&T)
 - ESP32 Marauder Mini / V7 / V8
 - Pwnagotchi fleet
+- muzi works R1 Neo
 - Flipper Zero
 - LiteVNA 64
-- AirGradient air quality monitors
+- AirGradient + EnviroPi air quality monitors
 - GL.iNet GL-MT3000
 - Bambu Lab P1S
+  
 
 ---
 
