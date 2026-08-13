@@ -52,10 +52,10 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 ---
 
 ## Tools
-- [`wigle_sort`](https://github.com/FusedStamen/Wigle) — Merge, deduplicate, and split WiGLE CSV exports by region
-- [`wigle_sort_v2`](https://github.com/FusedStamen/Wigle) — Extended version with 46-country + US state-level splitting, channel analysis, and structured output
-- [`wigle_sort_v3`](https://github.com/FusedStamen/Wigle) — v2 plus a small-state bounding box fix (Rhode Island, DC, etc. now match correctly instead of being swallowed by larger neighbors)
-- [`wigle_channel_compare`](https://github.com/FusedStamen/Wigle) — Side-by-side channel distribution comparison between two scan datasets, for A/B testing scan configurations
+- [`wigle_sort`](https://github.com/FusedStamen/Wigle) - Merge, deduplicate, and split WiGLE CSV exports by region
+- [`wigle_sort_v2`](https://github.com/FusedStamen/Wigle) - Extended version with 46-country + US state-level splitting, channel analysis, and structured output
+- [`wigle_sort_v3`](https://github.com/FusedStamen/Wigle) - v2 plus a small-state bounding box fix (Rhode Island, DC, etc. now match correctly instead of being swallowed by larger neighbors)
+- [`wigle_channel_compare`](https://github.com/FusedStamen/Wigle) - Side-by-side channel distribution comparison between two scan datasets, for A/B testing scan configurations
 
 ---
 
