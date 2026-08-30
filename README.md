@@ -35,7 +35,6 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 | uk | 22,012 |
 | other | 10,997 |
 | canada | 2,407 |
-| ireland | 90 |
 
 ---
 
