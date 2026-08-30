@@ -6,27 +6,36 @@ Active contributor to [WiGLE](https://wigle.net/search#searchtab=user&user=Fused
 
 ---
 
-## WiGLE Stats *(Updated 07/2026)*
+## WiGLE Stats (last updated 30Aug2026)
 
-| Type | Unique Records |
-|------|---------------|
-| BLE | 5,762,899 |
-| WiFi | 2,600,428 |
-| BT | 1,080,413 |
-| LTE | 18,752 |
+- **Total unique records:** 10,055,869
+- **Input CSVs processed:** 1,484
+- **Countries covered:** 8
+- **US states covered:** 42
+
+### Type Breakdown
+
+| Type | Count |
+|---|---:|
+| BLE | 6,177,566 |
+| WIFI | 2,769,859 |
+| BT | 1,082,536 |
+| LTE | 19,742 |
 | GSM | 5,404 |
 | WCDMA | 762 |
-| **Total** | **9,468,658** |
 
-| Region | Records |
-|--------|---------|
-| USA | 9,020,404 |
-| Netherlands | 259,368 |
-| India | 153,385 |
-| UK | 22,013 |
-| Other | 10,991 |
-| Canada | 2,407 |
-| Ireland | 90 |
+### Top 15 Countries
+
+| Country | Records |
+|---|---:|
+| usa | 9,451,779 |
+| netherlands | 259,370 |
+| mexico | 155,833 |
+| india | 153,381 |
+| uk | 22,012 |
+| other | 10,997 |
+| canada | 2,407 |
+| ireland | 90 |
 
 ---
 
