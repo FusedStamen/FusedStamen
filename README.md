@@ -100,6 +100,21 @@ I build wardriving hardware, measure antennas properly, and write the tools I wi
 
 ---
 
+## Disclaimer
+
+Everything here is shared for education, research and personal use. These are my personal projects, not affiliated with or endorsed by any employer.
+
+- **Authorized use only.** Use these tools, scripts and designs only on networks, devices and radio spectrum you own or have explicit written permission to test.
+- **Passive collection.** Wardriving and ADS-B logging here record signals that devices broadcast openly. Don't use collected data to track, identify or harass anyone.
+- **Active features.** Some projects, mostly forks of other people's work such as WatchDogsGo and the Pineapple Pager payloads, include active security-testing features. Check your local laws before using them.
+- **Your responsibility.** Laws on computer access, interception and radio use differ by country and state. Following them is on you.
+- **Hardware.** Board designs and cases are provided as-is. Review them yourself before building, especially anything involving batteries or power.
+- **Antenna data.** Measurements describe the specific units I tested using the documented methodology. Your results may differ.
+- **No warranty.** Everything is provided "as is", without warranty of any kind. I'm not liable for damage, data loss or misuse.
+- **Trademarks.** WiGLE, Hak5, Flipper, Alfa and other names belong to their owners. No affiliation is implied.
+
+---
+
 ## Links
 - 🌐 [fusedstamen.com](https://fusedstamen.com)
 - 📡 WiGLE username: FusedStamen
