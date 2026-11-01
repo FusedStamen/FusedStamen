@@ -82,14 +82,16 @@ I build wardriving hardware, measure antennas properly, and write the tools I wi
 
 ## Hardware
 - Packet_Hog
-- uConsole CM4
+- Biscuit Ultra x2 (Hedge)
+- Biscuit Crumb (Hedge)
+- uConsole CM4 (Hedge)
 - An egregious amount of ESP32s
 - T-Dongle C5
 - Hak5 WiFi Pineapple Pager
-- C5 Wardriver (ESP32-C5)
+- C5 Wardriver (JustCallMeKoko)
 - Signal Sleuth (dual ESP32-WROOM-32U + BW16)
 - RayHunter (Orbic - T-Mobile / Verizon / AT&T)
-- ESP32 Marauder Mini / V7 / V8
+- ESP32 Marauder Mini / V7 / V8 (JustCallMeKoko)
 - Pwnagotchi fleet
 - muzi works R1 Neo
 - Flipper Zero
