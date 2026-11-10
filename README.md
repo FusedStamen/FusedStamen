@@ -14,6 +14,7 @@ I build wardriving hardware, measure antennas properly, and write the tools I wi
 - **[StamenScan](https://github.com/FusedStamen/StamenScan)** - passive surveillance infrastructure detection for the WiFi Pineapple Pager.
 - **[antenna-database](https://github.com/FusedStamen/antenna-database)** - 130+ WiFi, LoRa, ADS-B, GPS and LTE antennas measured with a LiteVNA 64 under a written, versioned methodology. Three tiers: VNA bench testing, fixed-location field testing with a Biscuit Ultra, and open-field range comparison. Verdicts are based on worst in-band SWR, not SWR at resonance. Outside contributors are credited in the repo.
 - **[antenna-database-v2](https://github.com/FusedStamen/antenna-database-v2)** - a ground-up rebuild where every entry has a verified purchase source, a manufacturer SKU and a direct link, so you can buy exactly what was tested. Every unit is tested individually, and thresholds are tuned for passive-receive wardriving rather than transmit.
+- **[warroom](https://github.com/FusedStamen/warroom)** - wardrive planning and tracking scripts. Finds streets and 2 km WDGWars cells nobody has covered (from the WiGLE API or a self-hosted warroom database), builds a heat table of where you have already collected from your own WiGLE exports, watches cells for changes, and tracks leaderboard numbers with descriptive-only analysis. Also has read-only probes for the Wardrift API. Credentials and watchlists are never stored in the repo.
 - **[ads-b](https://github.com/FusedStamen/ads-b)** - ADS-B archive logger. A single stdlib-only Python script that polls a dump1090-fa, readsb or tar1090 feed and builds a daily archive of every unique aircraft seen. Runs on Windows and Linux, with setup docs for Task Scheduler and systemd.
 - **[AWUS036ACM_Setup](https://github.com/FusedStamen/AWUS036ACM_Setup)** - sets up the Alfa AWUS036ACM (MT7612U) in monitor mode on the WiFi Pineapple Pager with configurable channel hopping that keeps running after the payload exits, so other payloads can use it immediately.
 
@@ -24,7 +25,9 @@ I build wardriving hardware, measure antennas properly, and write the tools I wi
 - [`wigle_sort_v2`](https://github.com/FusedStamen/Wigle) - Extended version with 46-country + US state-level splitting, channel analysis, and structured output
 - [`wigle_sort_v3`](https://github.com/FusedStamen/Wigle) - v2 plus a small-state bounding box fix (Rhode Island, DC, etc. now match correctly instead of being swallowed by larger neighbors)
 - [`wigle_channel_compare`](https://github.com/FusedStamen/Wigle) - Side-by-side channel distribution comparison between two scan datasets, for A/B testing scan configurations
-- [`beacon_spam_detector`](https://github.com/FusedStamen/Wigle) and beacon spam contamination analysis - find and measure beacon-spam noise in wardriving logs
+- [`find_gap_streets`](https://github.com/FusedStamen/warroom) - find residential streets nobody has logged on WiGLE and build a GPX route through them. Quota-aware and resumable
+- [`wigle_cell_heat`](https://github.com/FusedStamen/warroom) - turn your own WiGLE CSV exports into a per-cell heat table so you can steer routes away from ground you have already covered. No network calls, streams large files
+- [`beacon_spam_contamination`](https://github.com/FusedStamen/Wigle) - write-up of the firmware teardown hypothesis for self-logged spam beacons, and how it was ruled out
 
 ---
 
