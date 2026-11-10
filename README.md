@@ -24,9 +24,10 @@ I build wardriving hardware, measure antennas properly, and write the tools I wi
 - [`wigle_sort`](https://github.com/FusedStamen/Wigle) - Merge, deduplicate, and split WiGLE CSV exports by region
 - [`wigle_sort_v2`](https://github.com/FusedStamen/Wigle) - Extended version with 46-country + US state-level splitting, channel analysis, and structured output
 - [`wigle_sort_v3`](https://github.com/FusedStamen/Wigle) - v2 plus a small-state bounding box fix (Rhode Island, DC, etc. now match correctly instead of being swallowed by larger neighbors)
+- [`wigle_sort_v4`](https://github.com/FusedStamen/Wigle) - streaming rewrite of v3 for multi-GB exports: flat memory use via a temporary SQLite file, reads .csv, .csv.gz and .zip, no pandas needed
 - [`wigle_channel_compare`](https://github.com/FusedStamen/Wigle) - Side-by-side channel distribution comparison between two scan datasets, for A/B testing scan configurations
 - [`find_gap_streets`](https://github.com/FusedStamen/warroom) - find residential streets nobody has logged on WiGLE and build a GPX route through them. Quota-aware and resumable
-- [`wigle_cell_heat`](https://github.com/FusedStamen/warroom) - turn your own WiGLE CSV exports into a per-cell heat table so you can steer routes away from ground you have already covered. No network calls, streams large files
+- [`wigle_cell_heat`](https://github.com/FusedStamen/Wigle) - turn your own WiGLE CSV exports into a per-cell heat table so you can steer routes away from ground you have already covered. No network calls, streams large files
 - [`beacon_spam_contamination`](https://github.com/FusedStamen/Wigle) - write-up of the firmware teardown hypothesis for self-logged spam beacons, and how it was ruled out
 
 ---
