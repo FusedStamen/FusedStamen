@@ -52,17 +52,38 @@ I build wardriving hardware, measure antennas properly, and write the tools I wi
 
 ---
 
-## WiGLE Stats (last updated 30Aug2026)
+## WiGLE Stats (last updated 10Nov2026)
 
-- **Total unique records:** 10,055,869
-- **Input CSVs processed:** 1,484
-- **Countries covered:** 8
-- **US states covered:** 42
+- **Total unique records:** 11,363,848
+- **Input CSVs processed:** 1,720
+- **Countries covered:** 7
+- **US states covered:** 40 (plus DC)
 
 ### Type Breakdown
 
 | Type | Count |
 |---|---:|
+| BLE | 7,193,367 |
+| WIFI | 3,056,953 |
+| BT | 1,086,172 |
+| LTE | 21,190 |
+| GSM | 5,404 |
+| WCDMA | 762 |
+
+### Top 15 Countries
+
+| Country | Records |
+|---|---:|
+| usa | 10,759,812 |
+| netherlands | 259,367 |
+| mexico | 155,812 |
+| india | 153,375 |
+| uk | 22,012 |
+| other | 10,973 |
+| canada | 2,407 |
+| ireland | 90 |
+
+---|---:|
 | BLE | 6,177,566 |
 | WIFI | 2,769,859 |
 | BT | 1,082,536 |
